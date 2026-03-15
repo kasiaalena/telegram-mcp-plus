@@ -13,10 +13,10 @@
 **Ответ:**
 ```json
 {
-  "id": 306560251,
-  "first_name": "Elena",
-  "last_name": "Liapina",
-  "username": "ElenaLiapina"
+  "id": 123456789,
+  "first_name": "John",
+  "last_name": "Doe",
+  "username": "johndoe"
 }
 ```
 
@@ -37,11 +37,11 @@
 {
   "dialogs": [
     {
-      "name": "ElenaLiapina",
+      "name": "johndoe",
       "type": "user",
-      "title": "Elena Liapina",
+      "title": "John Doe",
       "last_message": {
-        "who": "Elena",
+        "who": "John",
         "when": "2026-03-12 22:33:30",
         "text": "Привет!",
         "is_unread": false
@@ -71,7 +71,7 @@
   "messages": [
     {
       "id": 12345,
-      "who": "Elena",
+      "who": "John",
       "when": "2026-03-12 22:33:30",
       "text": "Привет!",
       "is_edited": false
@@ -96,7 +96,7 @@
 ```json
 {
   "status": "ok",
-  "dialog": "ElenaLiapina"
+  "dialog": "johndoe"
 }
 ```
 

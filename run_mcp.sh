@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /Users/kasiaalena/Documents/Claude/tg-mcp-plus
+cd "$(dirname "$0")"
 source .env
 export TG_APP_ID TG_API_HASH
 export PYTHONPATH=src
